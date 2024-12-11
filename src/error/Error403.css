@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+
+.error-403-container {
+  text-align: center;
+  color: white;
+  font-family: "Bungee", cursive;
+  margin-top: 50px;
+}
+
+html,body {
+  height: 100%;
+  background: #1b1b1b;
+  justify-content: center;
+  
+}
+
+a {
+  color: #2aa7cc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+svg {
+  width: 50vw;
+}
+
+.lightblue {
+  fill: #444;
+}
+
+.eye {
+  transform: translate(calc(30px * var(--mouse-x)), calc(30px * var(--mouse-y)));
+}
+
+#error-wrap {
+  overflow: hidden;
+}
+
+.error-text {
+  font-size: 120px;
+}
+
+.alarm {
+  animation: alarmOn 0.5s infinite;
+}
+
+@keyframes alarmOn {
+  to {
+    fill: darkred;
+  }
+}
+
+.go-home-button {
+  background-color: #2aa7cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.go-home-button:hover {
+  background-color: #1b8a99;
+}
